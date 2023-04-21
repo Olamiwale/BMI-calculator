@@ -1,0 +1,119 @@
+.app__bmi-container {
+  background-color: rgb(216, 210, 210);
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 4rem 4rem 0rem 4rem;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  font-size: 12px;
+  border: 1px solid gray;
+  height: 25px;
+  margin: 5px 0;
+  padding: 0px 3px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.app__bmi-header {
+ 
+  font-size: 20px;
+  font-weight: 20px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium';
+  padding: 5px;
+  margin: 5px 0px;
+}
+.app__bmi-age {
+  
+   justify-content: space-between;
+   display: flex;
+   border: 1px solid black;
+  border-radius: 2px;
+  padding: 5px 0px;
+  width: 100%;
+}
+
+.app__bmi-age input {
+  width: 120px;
+  height: 25px;
+  margin: 0 5px;
+}
+
+.app__bmi-age label {
+  font-size: 12px;
+  padding: 5px;
+}
+.app__bmi-weigth-heigth {
+  margin: 10px 0px;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 5px;
+}
+.app__bmi-weigth-heigth input{
+  width: 100%;
+}
+
+.app__bmi-weigth-heigth div{
+ display: flex;
+ align-items: center;
+}
+
+.app__bmi-weigth-heigth label{
+  font-size: 12px;
+  padding: 0 2rem;
+  width: 70px;
+  margin: 0 2px;
+  text-align: center;
+ }
+ .app__bmi-btn,
+  .app__bmi-reset{
+  width: 70%;
+  justify-content: center;
+  align-self: center;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  font-size: 15px;
+  border-radius: 2px;
+  cursor: pointer;
+ }
+
+ .app__bmi-message {
+  background-color: rgb(164, 151, 151);
+  width: 100%;
+  align-self: center;
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 15px;
+  margin: 5px 0px;
+ }
+ .app__bmi-reset {
+  margin: 20px 0;
+  background-color: rebeccapurple;
+ }
+
+ .app__bmi-reset:hover {
+  background-color:rgb(51, 17, 85) ;
+ }
+ .app__bmi-btn:hover {
+  background-color: rgb(162, 158, 158);
+ }
+ .app__bmi-design {
+  text-align: center;
+  padding: 5px;
+  margin: 2rem 0 0 0;
+  font-style: italic;
+ }
+  
